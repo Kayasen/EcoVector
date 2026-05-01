@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Interno | EcoVector</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#07110b">
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <main class="admin-shell">
+        <div class="container">
+            <a class="brand" href="../" aria-label="EcoVector"><img class="brand-logo" src="../assets/img/logo.png" alt="EcoVector"></a>
+            <section class="page-hero" style="padding-top: 38px;">
+                <span class="eyebrow">Área interna</span>
+                <h1>Adicionar e gerir viaturas 100% elétricas</h1>
+                <p>Este painel grava viaturas elétricas no browser através de localStorage. Para produção, exporta o JSON e passa os dados para o ficheiro <strong>data/cars.js</strong>.</p>
+            </section>
+            <div class="admin-grid">
+                <div class="admin-card">
+                    <form class="admin-form" data-admin-car-form>
+                        <label><span>Marca</span><input name="brand" required placeholder="Volkswagen"></label>
+                        <label><span>Modelo</span><input name="model" required placeholder="ID.4 Pro Performance"></label>
+                        <label><span>Versão</span><input name="version" placeholder="77 kWh · 204 cv"></label>
+                        <label><span>Preço</span><input name="price" placeholder="36.900€"></label>
+                        <label><span>Ano</span><input name="year" placeholder="2023"></label>
+                        <label><span>Quilómetros</span><input name="km" placeholder="42.000 km"></label>
+                        <label><span>Bateria</span><input name="battery" placeholder="75 kWh"></label>
+                        <label><span>Autonomia</span><input name="range" placeholder="602 km"></label>
+                        <label><span>Potência</span><input name="power" placeholder="498 cv"></label>
+                        <label><span>Categoria</span><input name="category" placeholder="SUV / Compacto / SUV Premium"></label>
+                        <label><span>Origem</span><select name="origin"><option value="Nacional">Nacional</option><option value="Importado">Importado</option></select></label>
+                        <label><span>Destaque</span><select name="highlight"><option value="">Sem destaque</option><option value="week">Destaque da semana</option><option value="featured">Em destaque</option></select></label>
+                        <label><span>Cor</span><input name="color" placeholder="Branco"></label>
+                        <label><span>Garantia</span><input name="warranty" placeholder="18 meses"></label>
+                        <label class="full">
+                            <span>Imagens da viatura</span>
+                            <div class="upload-box">
+                                <input id="carImagesUpload" name="imagesUpload" type="file" accept="image/png,image/jpeg,image/webp" multiple required>
+                                <div>
+                                    <strong><i class="fa-solid fa-cloud-arrow-up"></i> Carregar imagens</strong>
+                                    <small>Seleciona uma ou várias imagens. A primeira será usada como imagem principal.</small>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="full upload-preview" data-upload-preview></div>
+                        <label class="full"><span>Descrição</span><textarea name="description" rows="5" placeholder="Descrição comercial da viatura elétrica..."></textarea></label>
+                        <label class="full"><span>Histórico, um item por linha</span><textarea name="history" rows="5" placeholder="Bateria verificada&#10;Histórico de manutenção disponível&#10;Sem registo de acidentes estruturais"></textarea></label>
+                        <label class="full"><span>Equipamento, um item por linha</span><textarea name="features" rows="6" placeholder="Carregamento rápido DC&#10;Cabo de carregamento incluído&#10;Bomba de calor&#10;Câmara traseira"></textarea></label>
+                        <div class="full"><button class="btn btn-primary" type="submit">Guardar viatura elétrica</button></div>
+                    </form>
+                </div>
+                <aside class="admin-card"><h2>Gerir stock atual</h2><p class="muted-text">Aqui podes remover viaturas já existentes do stock e escolher quais aparecem como destaque. As viaturas do ficheiro <strong>cars.js</strong> ficam apenas ocultas neste browser; as adicionadas pelo painel podem ser apagadas.</p><div data-admin-list></div><div class="admin-actions"><button class="btn btn-primary" type="button" data-export-cars>Exportar JSON</button><button class="btn btn-secondary" type="button" data-clear-cars>Limpar adicionadas</button><a class="btn btn-secondary" href="../pages/stock">Ver stock</a></div></aside>
+            </div>
+        </div>
+    </main>
+    <script src="../assets/js/site-config.js"></script><script src="../data/cars.js"></script><script src="../assets/js/main.js"></script>
+</body>
+</html>
