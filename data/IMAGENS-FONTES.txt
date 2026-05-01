@@ -1,0 +1,43 @@
+Imagens configuradas a partir de Wikimedia Commons via Special:FilePath.
+Confirma sempre licenças/atribuições antes de usar em produção comercial.
+
+Volkswagen ID.4 Pro Performance
+- https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Volkswagen%20ID.4%20Pro%20S%2C%20front%20left%2C%2008-03-2024.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Volkswagen%20ID.4%20Pro%20AWD%20Statement%20Package%20in%20Pure%20Grey%2C%20Front%20Left%2C%2005-14-2023.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Volkswagen%20ID.4%20Pro%20AWD%20Statement%20Package%20in%20Pure%20Grey%2C%20Rear%20Left%2C%2005-14-2023.jpg?width=1400
+
+Volkswagen ID.3 Pro S
+- https://commons.wikimedia.org/wiki/Special:FilePath/VW%20ID.3%20Pro%20S%20%E2%80%93%20f%2030032025.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/VW%20ID.3%20Pro%20S%20%E2%80%93%20h%2030032025.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen%20ID.3%20%2848753683307%29.jpg?width=1400
+
+Audi Q4 e-tron 40
+- https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Q4%20e-tron%2040%201X7A7054.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Q4%20e-tron%2040%201X7A7053.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Q4%20e-tron%20S%20line%20%E2%80%93%20h%2006082021.jpg?width=1400
+
+Skoda Enyaq iV 80
+- https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Enyaq%20iV%2080%20%E2%80%93%20f%2003052021.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Enyaq%20iV%2080%20%E2%80%93%20h%2003052021.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Enyaq%20iV%2080%20%E2%80%93%20f1%2003052021.jpg?width=1400
+
+Cupra Born 58
+- https://commons.wikimedia.org/wiki/Special:FilePath/Cupra%20Born%2058%20%282023%29%20%2853050070397%29.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/Cupra%20Born%2058%20%282023%29%20%2853051040480%29.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Cupra%20Born%20V1%20EV%20-%2058kWh%20%28203PS%29%20Electric%20-%20Glacial%20White%20-%2007-2024%2C%20Front.jpg?width=1400
+
+Volkswagen e-Golf
+- https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Volkswagen%20e-Golf%20Comfortline%20in%20Tungsten%20Silver%20Metallic%2C%20front%20left%2C%202022-06-13.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Volkswagen%20e-Golf%20Front.jpg?width=1400
+- https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Volkswagen%20e-Golf%20Rear.jpg?width=1400
+
+Volkswagen ID.5 GTX
+- https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1400&q=80
+- https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1400&q=80
+- https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80
+
+Audi e-tron 55 quattro
+- https://images.unsplash.com/photo-1556189250-72ba954cfc2b?auto=format&fit=crop&w=1400&q=80
+- https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1400&q=80
+- https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80
+

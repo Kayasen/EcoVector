@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock de Viaturas | EcoVector</title>
+    <meta name="description" content="Consulte o stock EcoVector: viaturas 100% elétricas selecionadas, com financiamento, retoma e acompanhamento personalizado.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#07110b">
+    <link rel="canonical" href="https://ecovector.pt/pages/stock">
+    <meta property="og:title" content="Stock de Viaturas | EcoVector">
+    <meta property="og:description" content="Viaturas 100% elétricas disponíveis na EcoVector.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ecovector.pt/pages/stock">
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../" aria-label="EcoVector"><img class="brand-logo" src="../assets/img/logo.png" alt="EcoVector"></a>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <nav class="site-nav">
+                <a href="../">Início</a>
+                <a href="stock" class="active">Stock</a>
+                <div class="nav-services">
+                    <button class="services-toggle" type="button">Serviços ▾</button>
+                    <div class="services-menu">
+                        <a href="servicos#financiamento">Financiamento</a>
+                        <a href="servicos#encomenda">Viatura sob encomenda</a>
+                        <a href="servicos#retoma">Venda o seu carro</a>
+                        <a href="servicos#garantia">Garantia e pós-venda</a>
+                    </div>
+                </div>
+                <a href="sobre-nos">Quem Somos</a>
+                <a href="contactos">Contactos</a>
+            </nav>
+        </div>
+    </header>
+
+    <a class="floating-whatsapp" href="#" data-whatsapp-link aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <main>
+        <section class="page-hero stock-hero">
+            <div class="container stock-hero-inner">
+                <div>
+                    <span class="eyebrow">Stock EcoVector</span>
+                    <h1>Stock de viaturas 100% elétricas, prontas para proposta.</h1>
+                    <p>Explore o nosso stock de viaturas 100% elétricas cuidadosamente selecionadas. Pesquise por modelo, autonomia, ano e preço.</p>
+                </div>
+                <div class="stock-hero-card">
+                    <strong data-stock-count>0 viaturas disponíveis</strong>
+                    <span>Financiamento, retoma e apoio completo no processo de compra.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-sm">
+            <div class="container">
+                <div class="stock-search-real">
+                    <div class="stock-search-top">
+                        <div>
+                            <span class="eyebrow">Filtrar viaturas</span>
+                            <h2>Pesquisa de stock</h2>
+                            <p>Encontre rapidamente a viatura elétrica certa para si.</p>
+                        </div>
+                        <button class="stock-reset-link" type="button" data-reset-filters>
+                            <i class="fa-solid fa-rotate-left"></i>
+                            Limpar filtros
+                        </button>
+                    </div>
+
+                    <div class="stock-search-main">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input data-filter="search" placeholder="Pesquisar por marca, modelo, versão, bateria...">
+                    </div>
+
+                    <div class="stock-search-grid">
+                        <label>
+                            <span>Autonomia mínima</span>
+                            <div class="stock-input-addon">
+                                <input data-filter="range" type="number" placeholder="400">
+                                <strong>km</strong>
+                            </div>
+                        </label>
+                        <label>
+                            <span>Ano</span>
+                            <input data-filter="year" inputmode="numeric" placeholder="2023">
+                        </label>
+                        <label>
+                            <span>Preço até</span>
+                            <div class="stock-input-addon">
+                                <input data-filter="price" type="number" placeholder="35000">
+                                <strong>€</strong>
+                            </div>
+                        </label>
+                        <label>
+                            <span>Ordenar</span>
+                            <select data-filter="sort">
+                                <option value="recent">Mais recentes</option>
+                                <option value="price-asc">Preço crescente</option>
+                                <option value="price-desc">Preço decrescente</option>
+                                <option value="year-desc">Ano mais recente</option>
+                                <option value="range-desc">Maior autonomia</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="stock-brand-filter">
+                        <span>Marca</span>
+                        <div class="filter-chips" data-brand-chips></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="stock-toolbar"><strong>Resultados encontrados</strong><a class="btn btn-secondary" href="contactos">Contactar stand</a></div>
+                <div class="vehicle-grid" data-stock-grid></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-card"><img src="../assets/img/logo.png" alt="EcoVector" style="height: 56px; margin-bottom: 16px;"><p>Viaturas 100% elétricas e soluções de mobilidade elétrica com acompanhamento próximo desde a escolha até à entrega.</p></div>
+                <div class="footer-card"><h3>Menu</h3><nav><a href="../">Início</a><a href="stock">Stock</a><a href="servicos">Serviços</a><a href="sobre-nos">Quem Somos</a><a href="contactos">Contactos</a></nav></div>
+                <div class="footer-card"><h3>Contactos</h3><nav><a href="#" data-phone-link data-site-phone></a><a href="#" data-email-link data-site-email></a><a href="#" data-directions-link>Direções</a><a href="#" data-whatsapp-link>WhatsApp</a></nav></div>
+                <div class="footer-card"><h3>Atendimento</h3><p data-site-hours-week></p><p data-site-hours-sat></p><p data-site-hours-sun></p></div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 EcoVector. Todos os direitos reservados.</span><span><a href="politica-privacidade">Política de Privacidade</a> · <a href="termos">Termos de Utilização</a></span></div>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoDealer","name":"EcoVector","url":"https://ecovector.pt/pages/stock","address":"Lisboa, Portugal","telephone":"+351 912 345 678"}</script>
+    <script src="../assets/js/site-config.js"></script>
+    <script src="../data/cars.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
